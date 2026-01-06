@@ -80,10 +80,10 @@ body {
 
 /* Header */
 .site-header {
-    background-image: url('images/website%20Banner.png');
+    background-image: url('../images/website\ Banner.png');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
     color: white;
     padding: var(--spacing-lg) 0;
     position: relative;
