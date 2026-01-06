@@ -80,15 +80,32 @@ body {
 
 /* Header */
 .site-header {
-    background: linear-gradient(135deg, var(--accent-from) 0%, var(--accent-to) 100%);
+    background-image: url('images/website%20Banner.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     color: white;
     padding: var(--spacing-lg) 0;
     position: relative;
     box-shadow: 0 4px 6px var(--card-shadow);
 }
 
+.site-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.7) 0%, rgba(118, 75, 162, 0.7) 100%);
+    pointer-events: none;
+    z-index: 1;
+}
+
 .header-content {
     text-align: center;
+    position: relative;
+    z-index: 2;
 }
 
 .site-title {
