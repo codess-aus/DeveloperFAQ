@@ -698,6 +698,7 @@ body {
     height: 200px;
     object-fit: cover;
     display: block;
+    image-orientation: from-image;
 }
 
 .profile-main {
