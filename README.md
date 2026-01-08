@@ -1,7 +1,6 @@
 # Developer FAQ Blog
 
-Azure Static Web App: https://green-stone-03a17880f.4.azurestaticapps.net
-GitHub Pages: https://green-stone-03a17880f.4.azurestaticapps.net
+Final Website: https://www.scaling-guacamole.com/
 
 
 A modern, accessible blog website featuring developer productivity tips and best practices.
