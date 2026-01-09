@@ -44,45 +44,32 @@
         </div>
 
         <div class="post-body">
-            <p>GitHub Copilot's Coding Agent has been a real game-changer for automating everything from simple code fixes to major refactors. What sets it apart? It works as your own AI-powered "agent" that takes a plain-English prompt and turns it into real, production-ready changes - securely and reliably.</p>
+            <p>GitHub Copilot's #CodingAgent is at the core of how I kick off new projects, especially when I start with documentation. Almost every time, I begin by spinning up a new repository on GitHub.com, and the first thing I do is set up MkDocs. Copilot's Agent takes my plain English prompt like "initialize MkDocs with a good structure for technical docs" and gets things rolling within minutes, right there in the browser.</p>
 
-            <h2>How It Works</h2>
-            <p>You can kick off a Coding Agent session from several starting points:</p>
+            <p>Next, I have it help me with the setup for deployment to #GitHub Pages. The agent handles the configuration steps and automates that first deploy, so my docs go live almost instantly without any annoying manual steps or worrying about the secrets and build settings.</p>
+
+            <p>As the project evolves, I'll eventually migrate the site to an #Azure Static Web App. Copilot's Coding Agent steps in again to automate the migration process, set up workflows, tweak build scripts, and even refine environment variables for deployment. I have total confidence that everything is secure since the agent operates inside GitHub Actions, which keeps my credentials, environments, and code protected.</p>
+
+            <p>For testing, I always rely on #Playwright. Instead of writing the config or tests from scratch, I just tell Copilot Agent something like "add Playwright for browser-based testing and set up some sample tests for page navigation and search." It installs the dependencies, sets up the test structure, and gives me example scripts to build on. All of this happens inside Codespaces or GitHub.com, so I never have to switch tools or leave the cloud.</p>
+
+            <h2>My Workflow</h2>
+            <p>To sum up, my workflow looks like this:</p>
             <ul>
-                <li>Directly from your editor (VS Code, JetBrains, etc.)</li>
-                <li>The Agent Task panel in your repository</li>
-                <li>Repo creation (right in the GitHub UI)</li>
-                <li>The chat interface on github.com</li>
-                <li>Even the GitHub Phone app on the go</li>
+                <li>Start a new repo on GitHub.com and use Copilot's Agent to set up MkDocs</li>
+                <li>Deploy the docs using GitHub Pages with automated configuration and workflow setup</li>
+                <li>Eventually migrate to Azure Static Web Apps when I need more power, letting the agent handle the details</li>
+                <li>Integrate Playwright testing from the start for browser automation and end-to-end checks, set up quickly by Copilot's Agent</li>
             </ul>
 
-            <p>Once triggered, your prompt (could be "Add input validation to all endpoints" or "Refactor these modules for async I/O") is handed off to the AI, which runs securely in a locked-down GitHub Actions sandbox. This means your code, credentials, and environment are protected - the agent can't call out randomly or do anything unexpected in your name.</p>
-
-            <h2>Real-World Examples</h2>
-            <p>A few real-world examples of how I've seen this used:</p>
-
-            <h3>From the editor</h3>
-            <p>Highlight an old function and ask Copilot to modernize it for Python 3.11. A few seconds later, automated PR ready for review.</p>
-
-            <h3>Agent Task panel</h3>
-            <p>Pick a repo, launch a session with "Set up semantic-release versioning." The agent walks through each config step, handling repetitive changes across multiple files.</p>
-
-            <h3>From chat</h3>
-            <p>Type "Generate CRUD endpoints for this schema" while reviewing a pull request - you get a suggested implementation and tests, scoped to your repo.</p>
-
-            <h3>GitHub Phone app</h3>
-            <p>Spot a small bug reported by a teammate, start an agent session via the app, and the fix was prepped by the time you get to your desk.</p>
-
-            <h2>Safety & Traceability</h2>
-            <p>The coolest part: every session is traceable, reviewable, and runs in a way that prioritizes safety - no rogue changes or surprises.</p>
+            <p>Every action is secure, traceable, and easy to review. I save so much time, and the agent never makes changes I cannot see and approve.</p>
 
             <h2>Learn More</h2>
-            <p>Want details on the architecture and security? <a href="https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent" target="_blank" rel="noopener">GitHub's official docs on Copilot Coding Agent</a> break it down.</p>
+            <p>For more technical details, GitHub's documentation covers exactly how the Coding Agent is built and kept secure: <a href="https://msft.it/6048tNm3n" target="_blank" rel="noopener">GitHub Copilot Coding Agent Documentation</a></p>
 
             <h2>Your Turn</h2>
-            <p>Have you tried automating coding tasks with Copilot's Coding Agent yet? What's your favorite use case - or feature request?</p>
+            <p>I have found this workflow makes starting and deploying new docs sites unbelievably fast and reliable. Is there anything you wish Copilot's Agent could automate next, or any part of this process you'd like to optimize further?</p>
 
-            <p>#GitHubCopilot #AIAutomation #DeveloperTools #GitHubActions #AgentMode #SecureCoding</p>
+            <p>#Copilot #GitHubCopilot</p>
         </div>
     </article>
 
