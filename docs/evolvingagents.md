@@ -1,4 +1,8 @@
+Published Date: 2026-15-01 15th January 2026
 
+Title: Evolving with GitHub Copilot Agents: Step by Step
+
+Hero image: Designer (69).png
 
 # Evolving with GitHub Copilot Agents: Step by Step
 
